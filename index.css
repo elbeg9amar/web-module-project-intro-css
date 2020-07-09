@@ -1,0 +1,214 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/*border: 1px solid black;*/
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.links {
+    margin: 3% auto;
+}
+.links .visit{
+    display:inline-block;
+    width: 13%;
+    padding:6px 5px;
+    text-align: center;
+    margin-left: 11%;
+background-color: #FF764E;
+color: white;
+font-size:13px;
+border-radius: 5px;
+border-style: hidden;
+text-decoration: none;
+}
+.links .learn{
+    display:inline-block;
+    width: 15%;
+    padding:6px 5px;
+    text-align: center;
+margin-left: 14%;
+background-color: #5ED3EB;
+color: white;
+font-size:13px;
+border-radius: 5px;
+border-style: hidden;
+text-decoration: none;
+}
+.links .invo{
+    display:inline-block;
+    width: 13%;
+    padding:6px 5px;
+    text-align: center;
+margin-right: 12%;
+margin-left: 14%;
+color: white;
+background-color: #FFCD69;
+font-size:14px;
+border-radius: 5px;
+border-style:hidden;
+text-decoration: none;
+}
+.title{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.title img {
+    
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin-left:5%;
+ 
+}
+}
+.title h1{
+    
+   margin: 0% 0% 1% 0%;
+    width: 60%;
+    height: 35px;
+    font-size: 35px;
+    font-family: 'Chelsea Market', cursive;
+}
+.title .guide1 {
+    display: inline-block;
+    width:65%;
+    height:15px;
+    margin: 2% 0% 1% 5%;
+    
+    font-family: 'Roboto Mono', monospace;
+    font-size: 11px;
+}
+.title .guide2{
+    display: inline-block;
+    width:50%;
+    font-size:13px;
+    margin: 0% 0% 0% 2%;
+   
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+
+}
+#body p {
+    background-color: #DDB9A3;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0% 4% 0% 4%;
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
+.small .pic1, .pic2 {
+ margin: 1% 0% 0% 40%;
+ width: 20%;
+ height: 77px;
+}
+.small p {
+   display: inline-block;
+   margin: 0% 40% 0% 40%;
+   font-size: 10px;
+   text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.small .bold {
+    font-weight: bold;
+}
+footer img {
+    display: block;
+    width: 100%;
+    margin: 4% 0% 0% 0%;
+    height: 145px;
+   object-position: left top;
+    object-fit: cover;
+    
+   
+    
+    
+}
+
+.links2 {
+    margin: -1% 0% 0% 0%;
+    background-color: #F9E7DC;
+    padding: 4%;
+    
+}
+.links2 .visit{
+    display:inline-block;
+    width: 13%;
+    padding:6px 5px;
+    text-align: center;
+    margin-left: 11%;
+background-color: #FF764E;
+color: white;
+font-size:13px;
+border-radius: 5px;
+text-decoration: none;
+border-style: hidden;
+}
+.links2 .learn{
+    display:inline-block;
+    width: 15%;
+    padding:6px 5px;
+    text-align: center;
+margin-left: 14%;
+background-color: #5ED3EB;
+color: white;
+font-size:13px;
+border-radius: 5px;
+text-decoration: none;
+border-style: hidden;
+}
+
+    
+.links2 .invo{
+    display:inline-block;
+    width: 13%;
+    padding:6px 5px;
+    text-align: center;
+margin-right: 12%;
+margin-left: 14%;
+color: white;
+background-color: #FFCD69;
+font-size:14px;
+border-radius: 5px;
+border-style:hidden;
+text-decoration: none;
+}
